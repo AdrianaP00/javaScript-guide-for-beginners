@@ -1,0 +1,1 @@
+// obtain only first letter from string and drop the last 'I'm a super javaScript developer'
