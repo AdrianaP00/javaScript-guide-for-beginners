@@ -3,3 +3,5 @@
 
 let anime = 'demon slayer';
 anime = 50;
+
+module.exports = anime;
