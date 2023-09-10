@@ -3,4 +3,9 @@
 
 let ghoul = {name: 'Ken', surname: 'Kaneki', age: '23' };
 
-console.log("I'm "+ ghoul.name + ' ' + ghoul.surname +" I'm " + ghoul.age + ' ' + "years old " + "and I'm a ghoul"  )
+let str = "I'm "+ ghoul.name + ' ' + ghoul.surname +" I'm " + ghoul.age + ' ' + "years old " + "and I'm a ghoul" 
+
+console.log(str)
+
+module.exports.ghoul = ghoul;
+module.exports.str =  str;

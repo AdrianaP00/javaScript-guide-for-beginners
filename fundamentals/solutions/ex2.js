@@ -3,3 +3,7 @@
 let x = 5
 let y = 6
 let z = x + y
+
+module.exports.x = x;
+module.exports.y = y;
+module.exports.z = z;

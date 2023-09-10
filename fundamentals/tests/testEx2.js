@@ -1,23 +1,20 @@
 const assert = require("chai").assert;
+const expect = require("chai").expect;
 const { equal } = require("assert");
-const index = require('../solutions/ex2')
+const { x, y, z } = require("../solutions/ex2");
 
+describe("Test - ex2", () => {
+  it("the value of variable x exist", () => {
+    expect(x).to.not.be.an("undefined");
+  });
+  it("the value of variable y exist", () => {
+    expect(y).to.not.be.an("undefined");
+  });
+  it("the value of variable z exist", () => {
+    expect(z).to.not.be.an("undefined");
+  });
 
-describe('Test - ex2', () => {
-  
-      it('the value of variable exist', () => {
-        expect(index.x).to.not.be.an('undefined');
-      });
-      it('the value of variable exist', () => {
-        expect(index.y).to.not.be.an('undefined');
-      });      
-      it('the value of variable exist', () => {
-        expect(index.z).to.not.be.an('undefined');
-      });
-
-     it('right result of ex1', () => {
-       expect(index.y).to.equal(11);
-     });
-
+  it("right result of ex1", () => {
+    expect(z).to.equal(11);
+  });
 });
-
